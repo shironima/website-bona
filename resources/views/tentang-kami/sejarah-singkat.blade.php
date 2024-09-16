@@ -4,12 +4,14 @@
 <!-- Bagian Sejarah Singkat -->
 <section class="py-5">
     <div class="container">
+        <!-- Judul Utama -->
         <div class="row">
             <div class="col-12">
                 <h2 class="text-center font-weight-bold mb-5">Sejarah Singkat Santo Bonaventura</h2>
             </div>
         </div>
 
+        <!-- Konten Sejarah -->
         <div class="row">
             <!-- Kolom Tulisan (Kiri) -->
             <div class="col-md-7">
@@ -29,19 +31,25 @@
 
             <!-- Kolom Gambar (Kanan) -->
             <div class="col-md-5 text-center">
-                <img src="/images/Santo Bonaventura.jpg" alt="Gambar Santo Bonaventura" class="img-fluid rounded" style="max-width: 100%; height: auto;">
+                <img src="/images/Santo Bonaventura.jpg" alt="Gambar Santo Bonaventura" class="img-fluid rounded shadow-lg" style="max-width: 100%; height: auto;">
             </div>
         </div>
 
+        <!-- Nilai dan Filosofi serta Info Sekolah -->
         <div class="row mt-5">
+            <!-- Nilai dan Filosofi Santo Bonaventura -->
             <div class="col-md-6">
                 <h3 class="font-weight-bold mb-3">Nilai dan Filosofi Santo Bonaventura</h3>
-                <p class="text-justify mb-4">
-                    <i><b>
-                    Kebahagiaan tidak datang dengan sendirinya, tetapi harus disemaikan, dipupuk, dan dipelihara. Kebahagiaan akan tumbuh ketika kita membantu orang lain. Tanpa sikap dan tindakan untuk memberi, kebahagiaan akan layu. Mulailah dengan membantu orang di sekitar kita, dan berikan yang terbaik yang kita bisa.
-                    </b></i>
-                </p>
+                <blockquote class="blockquote">
+                    <p class="mb-4 text-justify">
+                        <i><b>
+                            Kebahagiaan tidak datang dengan sendirinya, tetapi harus disemaikan, dipupuk, dan dipelihara. Kebahagiaan akan tumbuh ketika kita membantu orang lain. Tanpa sikap dan tindakan untuk memberi, kebahagiaan akan layu. Mulailah dengan membantu orang di sekitar kita, dan berikan yang terbaik yang kita bisa.
+                        </b></i>
+                    </p>
+                </blockquote>
             </div>
+
+            <!-- Informasi SMAK Santo Bonaventura Madiun -->
             <div class="col-md-6">
                 <h3 class="font-weight-bold mb-3">SMAK Santo Bonaventura Madiun</h3>
                 <p class="text-justify mb-4">
