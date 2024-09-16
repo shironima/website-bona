@@ -1,0 +1,213 @@
+/* Gaya umum untuk jarak antar section */
+.section {
+    padding: 50px 0; /* Ruang di atas dan bawah section */
+}
+
+/* Mengatur scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom CSS untuk menengahkan tautan navbar */
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Gaya untuk header dengan gambar latar belakang */
+header {
+    background-image: url('/images/galery/image1-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Media Query untuk layar lebih kecil */
+@media (max-width: 768px) {
+    header {
+        height: 60vh; /* Sesuaikan tinggi untuk layar kecil */
+    }
+}
+
+/* Gaya untuk konten di dalam header */
+header .container {
+    position: relative; /* Menempatkan konten di atas overlay */
+    z-index: 2; /* Menempatkan konten di atas overlay */
+}
+
+/* Gaya untuk judul di header */
+header h1 {
+    font-size: 3rem; /* Sesuaikan ukuran teks judul */
+    font-weight: bold; /* Membuat teks tebal */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Efek bayangan untuk teks */
+}
+
+/* Gaya untuk paragraf di header */
+header p {
+    font-size: 1.5rem; /* Sesuaikan ukuran teks paragraf */
+    font-weight: bold; /* Membuat teks tebal */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Efek bayangan untuk teks */
+}
+
+/* Gaya untuk tombol light */
+.btn-light {
+    background-color: #f8f9fa; /* Warna tombol */
+    color: #343a40; /* Warna teks tombol */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn-light:hover {
+    background-color: #e2e6ea; /* Warna tombol saat hover */
+    color: #212529;
+    text-decoration: none;
+}
+
+/* Gaya untuk halaman Tentang Kami */
+.about-us {
+    padding: 50px 0; /* Ruang di atas dan bawah */
+    background-color: #f8f9fa; /* Warna latar belakang */
+}
+
+.about-us .container {
+    max-width: 800px; /* Lebar maksimum konten */
+    margin: 0 auto; /* Pusatkan konten di tengah */
+    padding: 0 15px; /* Ruang di kiri dan kanan */
+}
+
+.about-us h1 {
+    font-size: 2.5rem; /* Ukuran font judul */
+    font-weight: bold; /* Membuat teks tebal */
+    margin-bottom: 20px; /* Jarak bawah judul */
+}
+
+.about-us p {
+    font-size: 1.25rem; /* Ukuran font paragraf */
+    line-height: 1.6; /* Jarak antar baris */
+    margin-bottom: 15px; /* Jarak bawah paragraf */
+}
+
+.about-us p strong {
+    font-size: 1.5rem; /* Ukuran font untuk teks tebal */
+    color: #343a40; /* Warna teks tebal */
+}
+
+/* Styling tambahan untuk card */
+.cards .card {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd; /* Warna border card */
+    border-radius: 10px; /* Sudut lembut */
+    transition: box-shadow 0.3s; /* Transisi efek bayangan saat hover */
+}
+
+.cards .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+}
+
+.cards .card-body {
+    padding: 20px; /* Ruang di dalam card */
+}
+
+/* Gaya untuk tombol di bagian tentang kami */
+.about-section .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.about-section .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Gaya untuk gambar dalam bagian tentang kami */
+.about-section .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk heading dan teks */
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px; /* Jarak bawah heading */
+}
+
+p {
+    font-size: 1.125rem;
+    color: #555;
+    margin-bottom: 15px; /* Jarak bawah paragraf */
+}
+
+/* Gaya untuk bagian kontak */
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.contact-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.125rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.contact-section .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 20px;
+}
+
+.contact-section .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.contact-section .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+/* Custom CSS to remove underline on links */
+.no-underline {
+    text-decoration: none;
+}
+.no-underline:hover {
+    text-decoration: underline; /* Optional: underline on hover */
+}

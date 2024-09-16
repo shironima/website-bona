@@ -1,0 +1,7 @@
+/* Tailwind classes */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Bootstrap styles (specific elements) */
+@import "bootstrap/dist/css/bootstrap.min.css";

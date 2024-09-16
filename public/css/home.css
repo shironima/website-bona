@@ -1,0 +1,24 @@
+.navbar-nav {
+    margin-right: auto;
+}
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Jika ingin mengatur font-size atau font-weight untuk bagian tertentu */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+p, a, li {
+    font-weight: 400;
+}
+
+/* Tombol */
+.btn {
+    font-weight: 500;
+}
